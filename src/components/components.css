@@ -1,0 +1,56 @@
+
+.componentsSection{
+    height:fit-content;
+    background:white;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+.componentsDiv{
+    text-align: center;
+    width:100%;
+    height:20%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding:6px 0;
+    background:linear-gradient(rgb(145, 140, 140,0.6),rgb(0, 0, 0,0.5));
+}
+
+.componentsSection article{
+    margin:2rem 2rem 0 2rem;
+    height:80%;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:1rem;
+}
+.card{
+    /* width:30%; */
+    position:relative;
+
+    height:80%;
+    border-radius: 1rem;
+    text-align: center;
+}
+.card:hover{
+    transform:scale(1.2);
+}
+.card img{
+    width:100%;
+    height:76%;
+}
+.card div{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.discount{
+
+    background: red;
+    padding: 2px;
+    transform: rotate(-9deg);
+    position: absolute;
+    top: -4%;
+    left: -2%;
+}   
+

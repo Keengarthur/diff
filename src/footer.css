@@ -1,0 +1,82 @@
+
+.footerDiv{
+    text-align: left;
+    padding:4rem;
+    background:lightgrey;
+    
+
+}
+.footerDiv h3{
+    font-size: 1.8rem;
+    margin-top: 3rem;
+}
+.footerDiv p{
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    line-height: 2rem;
+}
+.footerDiv p:last-child{
+    text-align: center;
+    margin-top:6rem;
+}
+.newsletterInfo{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8rem;
+}
+.newsletter{
+    text-align: center;
+    width: 40%;
+    background:rgb(177, 166, 166,0.5);
+    /* margin: 1rem auto; */
+}
+
+.newsletter p{
+    font-size: 1.3rem;
+    margin-top: -2.3rem;
+}
+.newsletter button{
+    width: 15%;
+    padding: 9px;
+    margin-left: 1px;
+    margin-bottom: 4rem;
+    border: none;
+    background: grey;
+}
+.newsletter input{
+    padding: 9px 10px;
+    border: none;
+    outline: none;
+    width: 40%;
+    margin-top: -3rem;
+}
+
+.contactDiv{
+    width:40%;
+    background:rgb(177, 166, 166,0.5);
+    padding:1rem;
+    position:relative;
+}
+.contactDiv p{
+    font-size: 1.2rem;
+    position: absolute;
+    width: 89%;
+    top: 14%;
+    left: 26%;
+}
+
+.socialIcons{
+    position:absolute;
+    top:65%;
+    left:33%;
+}
+
+.socialIcons a{
+    margin-left: 5px;
+}
+.socialIcons a img{
+    width:9%;
+
+}
